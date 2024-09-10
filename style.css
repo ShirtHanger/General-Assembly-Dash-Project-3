@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&family=New+Amsterdam&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=New+Amsterdam&family=Oswald:wght@200..700&display=swap');
+
+body {
+  font-family: "New Amsterdam", sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+  background: #232323;
+}
+
+div {
+  height: 200px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+}
+
+h1 {
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  font-size: 75px;
+  color: #aaaaaa;
+  margin: 60px 0 0 0;
+}
+
+h2 {
+  text-align: center;
+  color: #bbbbbb;
+  margin: 0px 0 70px 0;
+}
+
+h4 {
+  text-align: center;
+  color: #aaaaaa;
+  font-size: 20px;
+}
+
+ul {
+  padding: 10px;
+  text-align: center;
+  list-style: none;
+}
+
+li {
+  padding: 0px 10px 0px 10px;
+}
+
+a {
+  color: black;
+}
+
+p {
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  height: 30px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+
+.political {
+      background-image: url("https://i.imgur.com/ijfmArC.jpeg");
+    }
+.cleaner {
+      background-image: url("https://i.imgur.com/quBJH8V.jpeg");
+    }
+.hitman {
+      background-image: url("https://i.imgur.com/MnFOQOS.jpeg");
+    }
+.liquid {
+      background-image: url("https://i.imgur.com/UbYLLzi.jpeg");
+    }
+.gardener {
+      background-image: url("https://i.imgur.com/xSYARml.jpeg");
+    }
+.private {
+      background-image: url("https://i.imgur.com/IiTaArh.jpeg");
+    }
+.security {
+      background-image: url("https://eldorado-13bc3.kxcdn.com/wp-content/uploads/2018/07/7_qualities_security_guards_should_have.jpg");
+    }
+.budget {
+      background-image: url("https://www.southeastbank.com/wp-content/uploads/2022/11/budgeting_101.jpeg");
+    }
+.ranger {
+      background-image: url("https://davidshepherd.org/wp-content/uploads/fly-images/209176/Ele-protect-grayscale_cDSWF-e1684828874446-1200x1200.jpg");
+    }
+    
+.price {
+      float: right;
+    }
+  
+small {
+  font-family: "Oswald", sans-serif;
+  opacity: 0;
+}
+
+.show-description p {
+      height: 75px;
+    }
+.show-description small {
+      opacity: 1;
+    }
+
+  @media (max-width: 500px) {
+    h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+    h2 {
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+  }
+    div {
+    margin: 20px 12px 0 12px;
+  }
+    p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+    small {
+      font-size: 16px;
+    }
+  }
