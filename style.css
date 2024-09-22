@@ -69,31 +69,31 @@ p {
 }
 
 .political {
-      background-image: url("https://i.imgur.com/ijfmArC.jpeg");
+      background-image: url("./images/world-map.jpg");
     }
 .cleaner {
-      background-image: url("https://i.imgur.com/quBJH8V.jpeg");
+      background-image: url("./images/cleanup.jpg");
     }
 .hitman {
-      background-image: url("https://i.imgur.com/MnFOQOS.jpeg");
+      background-image: url("./images/hitman.jpg");
     }
 .liquid {
-      background-image: url("https://i.imgur.com/UbYLLzi.jpeg");
+      background-image: url("./images/liquidation.jpg");
     }
 .gardener {
-      background-image: url("https://i.imgur.com/xSYARml.jpeg");
+      background-image: url("./images/gardener.jpg");
     }
 .private {
-      background-image: url("https://i.imgur.com/IiTaArh.jpeg");
+      background-image: url("./images/private.jpg");
     }
 .security {
-      background-image: url("https://eldorado-13bc3.kxcdn.com/wp-content/uploads/2018/07/7_qualities_security_guards_should_have.jpg");
+      background-image: url("./images/security.jpg");
     }
 .budget {
-      background-image: url("https://www.southeastbank.com/wp-content/uploads/2022/11/budgeting_101.jpeg");
+      background-image: url("./images/budgeting_101.jpeg");
     }
 .ranger {
-      background-image: url("https://davidshepherd.org/wp-content/uploads/fly-images/209176/Ele-protect-grayscale_cDSWF-e1684828874446-1200x1200.jpg");
+      background-image: url("./images/ranger.jpg");
     }
     
 .price {
